@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    color: whitesmoke;
+    background-image: url(Images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.5;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(29, 17, 53);
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(86, 67, 253);
+    
+}
+
+a:hover {
+    font-weight: 700;
+    color: #ba1e68;
+    background-color: #7649fe;
+}
+
+#icon1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: #7649fe;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#main {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#button {
+    display: inline-block;
+    color: whitesmoke;
+    margin-top: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#button:hover {
+    color: #fcfbfe;
+}
+
+@media (max-width: 400px) {
+    a {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    a {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    a {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
